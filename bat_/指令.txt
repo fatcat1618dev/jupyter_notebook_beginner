@@ -1,0 +1,19 @@
+在cmd或anaconda prompt中使用anaconda搭建环境
+create -n kf  jupyter notebook
+注：创建kf名字的虚拟环境，在虚拟环境中安装jupyter notebook三方库
+
+查看已有环境情况
+conda info -e
+
+激活环境
+activate kf
+
+虚拟环境中安装自己想要的第三方库，比如request
+conda install requests
+
+conda搜不到的包，可用pip安装
+python -m pip install xxx
+
+打开Jupyter Notebook
+jupyter notebook
+
